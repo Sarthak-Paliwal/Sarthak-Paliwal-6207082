@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "yoNGM-EvxfTNh3bXKN-80",
+      "type": "text",
+      "x": 87.33336639404297,
+      "y": 87.33333587646484,
+      "width": 997.1193237304688,
+      "height": 525,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a2",
+      "roundness": null,
+      "seed": 135182950,
+      "version": 764,
+      "versionNonce": 2095414714,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1772090822879,
+      "link": null,
+      "locked": false,
+      "text": "await page.setViewportSize({width:2400,height:2000})\nlet ob=await page.viewportSize();\nto fetch the title of page: await page.title()\nto fetch the url : await page.url()\nto close the browser --> use browser context --> await browser.close()\nto take the screenshot of page --> await page.screenshot({path(optional) path:\"screenshot/ss.png\"})\n    Path is an optional property but if we want to save permanently in storage\nuse path\n\nto get the cookies from url:--> await browser.cookies() -->returns array of json object\n\nsome more methods-->\n to open a url ==>page.goto(\"url\")\n to create a new session/context ==> browser.newContext()\n to create a new page ==> context.newPage()\n\n\n\n\n\n.",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "await page.setViewportSize({width:2400,height:2000})\nlet ob=await page.viewportSize();\nto fetch the title of page: await page.title()\nto fetch the url : await page.url()\nto close the browser --> use browser context --> await browser.close()\nto take the screenshot of page --> await page.screenshot({path(optional) path:\"screenshot/ss.png\"})\n    Path is an optional property but if we want to save permanently in storage\nuse path\n\nto get the cookies from url:--> await browser.cookies() -->returns array of json object\n\nsome more methods-->\n to open a url ==>page.goto(\"url\")\n to create a new session/context ==> browser.newContext()\n to create a new page ==> context.newPage()\n\n\n\n\n\n.",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

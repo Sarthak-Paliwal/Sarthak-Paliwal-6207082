@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "C0cRL-mTvWOG0Xhiz0U-5",
+      "type": "text",
+      "x": 109.24450013054951,
+      "y": -16,
+      "width": 765.5111256239107,
+      "height": 210.7057413696908,
+      "angle": 0,
+      "strokeColor": "#e03131",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 266488187,
+      "version": 1254,
+      "versionNonce": 1700987540,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1772084534798,
+      "link": null,
+      "locked": false,
+      "text": "Run all the tests of a file: npx playwright test relative-path\nRun Specific Test Case :npx playwright test -g  \"title name\"\nRun test on a given browser: npx playwright test tests/test1.spec.ts --project=chromium --headed\nShow Report-- npx playwright show-report\nSee line by line execution : npx playwright test relative-path --debug (launch playwright inspector)\nif show report does not work-- npx playwright show-report --port=9999\n\nTrigger the playwright inspector without debug mode: await page.pause();\nwhat is does is we write the command in b/w the test and when the command executes the execution pause\nand inspector is launched\n\n",
+      "fontSize": 14.047049424646053,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Run all the tests of a file: npx playwright test relative-path\nRun Specific Test Case :npx playwright test -g  \"title name\"\nRun test on a given browser: npx playwright test tests/test1.spec.ts --project=chromium --headed\nShow Report-- npx playwright show-report\nSee line by line execution : npx playwright test relative-path --debug (launch playwright inspector)\nif show report does not work-- npx playwright show-report --port=9999\n\nTrigger the playwright inspector without debug mode: await page.pause();\nwhat is does is we write the command in b/w the test and when the command executes the execution pause and inspector is launched\n\n",
+      "autoResize": false,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

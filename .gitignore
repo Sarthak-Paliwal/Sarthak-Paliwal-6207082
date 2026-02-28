@@ -1,0 +1,7 @@
+# Ignore everything except Day folders
+/*
+!Day */
+!.gitignore
+
+# Ignore node_modules everywhere
+node_modules/
