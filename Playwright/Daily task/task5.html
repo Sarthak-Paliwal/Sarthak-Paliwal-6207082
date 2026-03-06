@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent{
+         height: 100vh;
+        width: 60%;
+        background-color: white;
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+      grid-template-rows: repeat(7,1fr);
+    }
+    .cont{
+        background-color: white;
+        border: 1px solid black;
+        margin: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .c1{
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .c2{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    
+    .c5{
+      grid-column-start: 3;
+        grid-column-end: 5;  
+    }
+    .c7{
+       grid-column-start: 2;
+        grid-column-end: 4;  
+    }
+    .c8{
+        grid-column-start:1 ;
+        grid-column-end: 3;
+    }
+    .c10{
+        grid-row-start: 3;
+        grid-row-end:5 ;
+        grid-column-start: 4;
+    }
+    .c11{
+        grid-row-start: 5;
+        grid-row-end:6 ;
+    }
+    .c16{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .c19{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .c17{
+        grid-column-start:4;
+        grid-row-start:6 ;
+        grid-row-end:8 ;
+    }
+    
+</style>
+<body>
+    <div class="parent">
+        <div class="cont c1">1</div>
+        <div class="cont c2">2</div>
+        <div class="cont c3">3</div>
+        <div class="cont c4">4</div>
+        <div class="cont c5">5</div>
+        <div class="cont c6">6</div>
+        <div class="cont c7">7</div>
+        <div class="cont c10">10</div>
+        <div class="cont c8">8</div>
+        <div class="cont c9">9</div>
+        <div class="cont c11">11</div>
+        <div class="cont c12">12</div>
+        <div class="cont c13">13</div>
+        <div class="cont c14">14</div>
+        <div class="cont c15">15</div>
+        <div class="cont c16">16</div>
+        <div class="cont c17">17</div>
+        <div class="cont c18">18</div>
+        <div class="cont c19">19</div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <button id="toggle">ChangeTheme</button>
+</body>
+<script>
+    let body=document.body;
+    let button=document.getElementById("toggle");
+    button.addEventListener("click",()=>{
+        if(body.style.backgroundColor=="white"){
+            body.style.backgroundColor="black";
+            body.style.color="green";
+
+        }else{
+            body.style.backgroundColor="white";
+            body.style.color="black";
+
+        }
+    })
+</script>
+</html>

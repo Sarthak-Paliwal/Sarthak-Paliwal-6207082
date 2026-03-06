@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button{
+        height: 50px;
+        width: 50px;
+    }
+</style>
+<body>
+    <div>
+       <h1 id="counter">0</h1>
+    </div>
+    <div>
+        <button id="inc">+</button>
+        <button id="dec">-</button>
+        <button id="reset">Reset</button>
+    </div>
+    <script>
+        let counter=document.getElementById("counter")
+        let b1=document.getElementById("inc");
+        let b2=document.getElementById("dec");
+        let b3=document.getElementById("reset");
+        let count=0;
+        counter.innerHtml=count;
+        b1.addEventListener("click",()=>{
+            count++
+            counter.innerHTML=count;
+        })
+        b2.addEventListener("click",()=>{
+            count--;
+            counter.innerHTML=count;
+        })
+        b3.addEventListener("click",()=>{
+            counter.innerHTML=0;
+        })
+
+    </script>
+</body>
+</html>

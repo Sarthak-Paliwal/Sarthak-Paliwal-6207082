@@ -1,0 +1,80 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: rgb(223, 225, 226);
+        }
+
+        header {
+            background-color: greenyellow;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color:blueviolet;
+            text-align: center;
+            padding: 10px;
+        }
+        #intro::after{
+            content: "😶‍🌫️😶‍🌫️";
+        }
+        #intro::selection{
+            background-color: cadetblue;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        #intro::first-letter{
+            font-size: 30px;
+            color: red;
+        }
+        
+        img {
+            border-radius: 10px;
+            width: 150px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid gray;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(110, 110, 161);
+        }
+        fieldset{
+            width: 50%;
+        }
