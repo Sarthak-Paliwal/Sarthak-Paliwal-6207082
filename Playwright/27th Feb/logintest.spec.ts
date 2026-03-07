@@ -1,7 +1,7 @@
 import {test} from "@playwright/test"
 
 test("username",async({page})=>{
-    await page.goto("https://pract  icetestautomation.com/practice-test-login/");
+    await page.goto("https://practicetestautomation.com/practice-test-login/");
 
     //?locate using css Id
     await page.locator("input#username").fill("student");
