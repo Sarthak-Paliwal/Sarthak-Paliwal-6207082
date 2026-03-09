@@ -5,8 +5,13 @@ test("username",async({page})=>{
 
     //?locate using css Id
     await page.locator("input#username").fill("student");
+    await page.waitForTimeout(2000);
     await page.locator("input#password").fill("Password123");
+    await page.waitForTimeout(2000);
+
     await page.locator("button#submit").click();
+    await page.waitForTimeout(2000);
+
     await page.pause(); 
     //?locate using css class
     await page.locator("a.wp-block-button__link").click();

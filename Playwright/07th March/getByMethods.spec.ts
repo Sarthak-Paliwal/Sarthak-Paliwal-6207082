@@ -46,3 +46,12 @@ test.only("Test4", async ({ page }) => {
   await page.goto("https://flipkart.com/");
   await page.getByAltText("Image").first().click();
 });
+
+//? Get by test id
+test('test1', async ({page}) => {
+    page.goto('https://www.saucedemo.com/');
+    await page.getByTestId('username').fill('standard_user');
+    await page.getByTestId('password').type('secret_sauce');
+    await page.getByTestId('login-button').click();
+    await page.pause();
+});
