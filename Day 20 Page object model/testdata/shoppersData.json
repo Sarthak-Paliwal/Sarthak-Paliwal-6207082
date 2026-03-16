@@ -1,0 +1,13 @@
+{
+    "Register":{
+        "fname":"sarthak",
+        "lname":"paliwal",
+        "gender":"male",
+        "phoneNo":"9898989889",
+        "email":"sarthak@gmail.com",
+        "passwd":"Sarthak@29"
+    },
+    "Login":{
+
+    }
+}
